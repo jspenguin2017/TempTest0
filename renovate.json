@@ -1,6 +1,14 @@
 {
   "extends": [
-    "hugoxu",
-    ":automergeDisabled"
-  ]
+    "hugoxu"
+  ],
+  "patch": {
+    "automerge": false
+  },
+  "pin": {
+    "automerge": false
+  },
+  "lockFileMaintenance": {
+    "automerge": false
+  }
 }
